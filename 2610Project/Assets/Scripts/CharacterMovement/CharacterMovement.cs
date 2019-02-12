@@ -6,18 +6,12 @@ public class CharacterMovement : MonoBehaviour
 {
 
 	public Rigidbody Rb;
-	public float characterSpeed = 10;
+	public float characterSpeed;
 	public Vector3 direction;
 	public float playerY;
 
-	void Start ()
-	{
-		//direction = Rb.velocity;
-		//Rb.velocity = direction;
-		//playerX = direction.x;
-
-		//transform.Translate(direction * characterSpeed * Time.deltaTime);
-	}
+	
+		
 	
 	void Update () {
 		direction = Rb.velocity;

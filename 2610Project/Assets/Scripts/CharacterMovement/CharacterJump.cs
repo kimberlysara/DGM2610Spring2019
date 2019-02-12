@@ -35,5 +35,7 @@ public class CharacterJump : MonoBehaviour
 			jump.y = jumpHeight;
 			Rb.AddForce(jump, ForceMode.Impulse);
 		}
+		
+	
 	}
 }
