@@ -10,6 +10,7 @@
           <e p="CharacterMovement" t="Include">
             <e p="CharacterJump.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
+            <e p="CharacterRespawn.cs" t="Include" />
             <e p="EnemyJump.cs" t="Include" />
             <e p="EnemyMovement.cs" t="Include" />
           </e>

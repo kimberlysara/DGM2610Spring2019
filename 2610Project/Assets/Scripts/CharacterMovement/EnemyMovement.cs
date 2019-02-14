@@ -23,7 +23,7 @@ public class EnemyMovement : MonoBehaviour {
 
 	IEnumerator _enemyWait()
 	{
-		yield return new WaitForSeconds(2);
+		yield return new WaitForSeconds(1.5f);
 		characterSpeed = 6;
 	}
 	
