@@ -11,9 +11,13 @@
             <e p="CharacterJump.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
             <e p="CharacterRespawn.cs" t="Include" />
+            <e p="EnemyCollision.cs" t="Include" />
+            <e p="EnemyInteraction.cs" t="Include" />
             <e p="EnemyJump.cs" t="Include" />
+            <e p="EnemyMoveBool.cs" t="Include" />
             <e p="EnemyMovement.cs" t="Include" />
           </e>
+          <e p="ColorGradient.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

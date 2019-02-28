@@ -9,9 +9,12 @@ public class EnemyMovement : MonoBehaviour {
 	public float characterSpeed = 10;
 	public Vector3 direction;
 	public float playerY;
+	public EnemyMoveBool IsMovingBool;
 
 	private void Start()
 	{
+		IsMovingBool.EnemyisMoving = false;
+		
 		characterSpeed = 0;
 		StartCoroutine(_enemyWait());
 		//direction = Rb.velocity;
@@ -25,6 +28,7 @@ public class EnemyMovement : MonoBehaviour {
 	{
 		yield return new WaitForSeconds(1.5f);
 		characterSpeed = 6;
+		IsMovingBool.EnemyisMoving = true;
 	}
 	
 
