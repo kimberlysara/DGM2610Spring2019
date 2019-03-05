@@ -33,7 +33,7 @@ public class EnemyInteraction : MonoBehaviour
 			}
 			else
 			{
-				EnemyMove.characterSpeed = 10;
+				EnemyMove.characterSpeed = 6;
 			}
 
 

@@ -37,6 +37,14 @@ public class EnemyMovement : MonoBehaviour {
 		Rb.velocity = direction;
 		playerY = direction.y;
 		Rb.velocity = new Vector3(characterSpeed,playerY,0);
+		/*if (IsMovingBool.EnemyisMoving == false)
+		{
+			characterSpeed = 0;
+		}
+		else
+		{
+			characterSpeed = 6;
+		} */
 	}
 
 }

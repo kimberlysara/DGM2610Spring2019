@@ -22,8 +22,11 @@ GameObject:
   - component: {fileID: 33856689606197210}
   - component: {fileID: 23973122434776178}
   - component: {fileID: 136626219388844298}
-  - component: {fileID: 114144046816097198}
   - component: {fileID: 54999462459508658}
+  - component: {fileID: 114151045764259226}
+  - component: {fileID: 114573266654310274}
+  - component: {fileID: 114918260191100740}
+  - component: {fileID: 114281876143082080}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -38,7 +41,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1451578406224340}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.99, y: 8.37, z: -0.62}
+  m_LocalPosition: {x: -9.99, y: 3.43, z: -0.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,9 +102,9 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &114144046816097198
+--- !u!114 &114151045764259226
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -109,13 +112,55 @@ MonoBehaviour:
   m_GameObject: {fileID: 1451578406224340}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68b633f9a5f1d1c4d9d0a1b067a55005, type: 3}
+  m_Script: {fileID: 11500000, guid: 238e7cb6149de064faa1609e4087af47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114281876143082080
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451578406224340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0b05c7765261f4fa9f6a1034e4eee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerLocation: {x: 0, y: 0, z: 0}
+  Player: {fileID: 0}
+  EnemyLocation: {x: 0, y: 0, z: 0}
+  Enemy: {fileID: 1451578406224340}
+  IsMovingBool: {fileID: 11400000, guid: b39e598339fd16943a2636807d8921fc, type: 2}
+--- !u!114 &114573266654310274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451578406224340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44e753e1fa16b32448b557fbb7704172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Rb: {fileID: 54999462459508658}
-  characterSpeed: 10
+  characterSpeed: 6
   direction: {x: 0, y: 0, z: 0}
   playerY: 0
+  IsMovingBool: {fileID: 11400000, guid: b39e598339fd16943a2636807d8921fc, type: 2}
+--- !u!114 &114918260191100740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1451578406224340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98e910bb799263345b17768f22be3860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpHeight: 5
+  Rb: {fileID: 54999462459508658}
+  jump: {x: 0, y: 0, z: 0}
 --- !u!136 &136626219388844298
 CapsuleCollider:
   m_ObjectHideFlags: 1
