@@ -12,7 +12,7 @@
     <session id="1464009816">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -21,12 +21,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="1786" />
+          <entry key="cs" value="1793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="1786" />
+          <entry key="C#" value="1793" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,15 +60,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fallingobjects.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="480">
+              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
-                <marker date="1551761334238" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551761334238" expanded="true" signature="123:984" ph="{...}" />
-                <marker date="1551761334238" expanded="true" signature="242:362" ph="{...}" />
-                <marker date="1551761334238" expanded="true" signature="364:404" ph="/* click object ... */" />
-                <marker date="1551761334238" expanded="true" signature="435:575" ph="{...}" />
-                <marker date="1551761334238" expanded="true" signature="607:982" ph="{...}" />
+                <marker date="1551761492323" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551761492323" expanded="true" signature="123:984" ph="{...}" />
+                <marker date="1551761492323" expanded="true" signature="242:362" ph="{...}" />
+                <marker date="1551761492323" expanded="true" signature="364:404" ph="/* click object ... */" />
+                <marker date="1551761492323" expanded="true" signature="435:575" ph="{...}" />
+                <marker date="1551761492323" expanded="true" signature="607:982" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -255,7 +255,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="764" />
     <option name="height" value="1040" />
@@ -333,12 +333,12 @@
       <workItem from="1550001584887" duration="2805000" />
       <workItem from="1550178340332" duration="2577000" />
       <workItem from="1551385212123" duration="5291000" />
-      <workItem from="1551732558069" duration="14125000" />
+      <workItem from="1551732558069" duration="14878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32051000" />
+    <option name="totallyTimeSpent" value="32804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,7 +351,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992908" weight="0.10067114" />
       <window_info id="Structure" order="1" sideWeight="0.50070924" side_tool="true" weight="0.10067114" />
@@ -570,15 +569,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Fallingobjects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+        <state relative-caret-position="480">
+          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
-            <marker date="1551761334238" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551761334238" expanded="true" signature="123:984" ph="{...}" />
-            <marker date="1551761334238" expanded="true" signature="242:362" ph="{...}" />
-            <marker date="1551761334238" expanded="true" signature="364:404" ph="/* click object ... */" />
-            <marker date="1551761334238" expanded="true" signature="435:575" ph="{...}" />
-            <marker date="1551761334238" expanded="true" signature="607:982" ph="{...}" />
+            <marker date="1551761492323" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551761492323" expanded="true" signature="123:984" ph="{...}" />
+            <marker date="1551761492323" expanded="true" signature="242:362" ph="{...}" />
+            <marker date="1551761492323" expanded="true" signature="364:404" ph="/* click object ... */" />
+            <marker date="1551761492323" expanded="true" signature="435:575" ph="{...}" />
+            <marker date="1551761492323" expanded="true" signature="607:982" ph="{...}" />
           </folding>
         </state>
       </provider>
