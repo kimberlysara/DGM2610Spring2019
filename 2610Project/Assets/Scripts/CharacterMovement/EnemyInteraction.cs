@@ -11,7 +11,7 @@ public class EnemyInteraction : MonoBehaviour
 	public GameObject Enemy;
 	private EnemyMovement EnemyMove;
 	public EnemyMoveBool IsMovingBool;
-
+	
 
 	private void Start()
 	{
@@ -27,8 +27,8 @@ public class EnemyInteraction : MonoBehaviour
 			if (PlayerLocation.x < EnemyLocation.x)
 
 			{
-				print("y");
-				//StartCoroutine(EnemyScript());
+			
+			
 				EnemyMove.characterSpeed = 0;
 			}
 			else
@@ -41,14 +41,6 @@ public class EnemyInteraction : MonoBehaviour
 	}
 
 
-	//IEnumerator EnemyScript()
-	//{
-		//print("x");
-		//EnemyMove.characterSpeed = 0;
-		//yield return new WaitForSeconds(1.5f);
-		//EnemyMove.characterSpeed = 10;
-
-	//}
 	
 	
 }
