@@ -507,6 +507,10 @@ Prefab:
       propertyPath: Player
       value: 
       objectReference: {fileID: 799808814}
+    - target: {fileID: 1451578406224340, guid: 3df59730b5b6c0c4dbdd9f31b96934d6, type: 2}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3df59730b5b6c0c4dbdd9f31b96934d6, type: 2}
   m_IsPrefabParent: 0
@@ -568,7 +572,7 @@ Transform:
   m_GameObject: {fileID: 709639457}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 12.29, y: -0.07, z: 5.208473}
-  m_LocalScale: {x: 12.720591, y: 0.797029, z: 3.5331876}
+  m_LocalScale: {x: 12.720591, y: 0.11150019, z: 3.5331876}
   m_Children: []
   m_Father: {fileID: 669742322}
   m_RootOrder: 1
@@ -666,6 +670,12 @@ GameObject:
   m_PrefabParentObject: {fileID: 1451578406224340, guid: 3df59730b5b6c0c4dbdd9f31b96934d6,
     type: 2}
   m_PrefabInternal: {fileID: 646267591}
+--- !u!114 &1742552127 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114573266654310274, guid: 3df59730b5b6c0c4dbdd9f31b96934d6,
+    type: 2}
+  m_PrefabInternal: {fileID: 646267591}
+  m_Script: {fileID: 11500000, guid: 44e753e1fa16b32448b557fbb7704172, type: 3}
 --- !u!1001 &1974857491
 Prefab:
   m_ObjectHideFlags: 0
@@ -710,6 +720,17 @@ Prefab:
       propertyPath: Enemy
       value: 
       objectReference: {fileID: 1742552124}
+    - target: {fileID: 114372127461748706, guid: cc81de51165a7fa4193b1f0f26a4a0d9,
+        type: 2}
+      propertyPath: EnemyWaiting
+      value: 
+      objectReference: {fileID: 1742552127}
+    - target: {fileID: 114372127461748706, guid: cc81de51165a7fa4193b1f0f26a4a0d9,
+        type: 2}
+      propertyPath: Ismovingbool
+      value: 
+      objectReference: {fileID: 11400000, guid: b39e598339fd16943a2636807d8921fc,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cc81de51165a7fa4193b1f0f26a4a0d9, type: 2}
   m_IsPrefabParent: 0
