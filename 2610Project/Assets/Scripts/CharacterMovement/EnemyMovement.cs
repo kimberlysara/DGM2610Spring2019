@@ -6,7 +6,7 @@ public class EnemyMovement : MonoBehaviour {
 
 	
 	public Rigidbody Rb;
-	public float characterSpeed = 10;
+	public float characterSpeed;
 	public Vector3 direction;
 	public float playerY;
 	public EnemyMoveBool IsMovingBool;
@@ -27,7 +27,7 @@ public class EnemyMovement : MonoBehaviour {
 	IEnumerator _enemyWait()
 	{
 		yield return new WaitForSeconds(1.5f);
-		characterSpeed = 6;
+		characterSpeed = 10;
 		IsMovingBool.EnemyisMoving = true;
 	}
 	
