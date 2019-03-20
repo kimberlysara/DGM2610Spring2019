@@ -5,7 +5,8 @@ Super Mario Run:Super Mario Run is another infinite runner, this one, like mine,
 This is similar to mine in that way because for mine you have to be quick enough jumping over gaps and fences so you aren't caught be the police. I think this is a really well made game, it has a lot of unique level designs
 <<<<<<< Updated upstream
 which differentiate it from a lot of other runners. 
-commit
+commit commit
+
 
 =======
 which differentiate it from a lot of other runners. commit
