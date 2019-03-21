@@ -8,6 +8,7 @@ TagManager:
   - FallThreshold
   - Hazard
   - Enemy
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

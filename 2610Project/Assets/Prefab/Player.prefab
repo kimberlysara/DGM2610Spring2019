@@ -70,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1436562506896496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 80.70495, y: 15.1207695, z: 67.05}
+  m_LocalPosition: {x: 162.43, y: 9.11, z: 65.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4011142406355850}
@@ -128,7 +128,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: e9d44bd664d82574d9cc3bcb7c1faed7, type: 2}
+  - {fileID: 2100000, guid: 77c86f0504c88794f95e4ecb6b05dc6a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -189,6 +189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy: {fileID: 0}
+  EnemyWaiting: {fileID: 0}
+  Ismovingbool: {fileID: 0}
 --- !u!114 &114622052434633674
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -201,7 +203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rb: {fileID: 54566650411373254}
-  characterSpeed: 5.5
+  characterSpeed: 8
   direction: {x: 0, y: 0, z: 0}
   playerY: 0
 --- !u!114 &114844703473593040

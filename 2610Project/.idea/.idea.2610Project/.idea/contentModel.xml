@@ -133,17 +133,22 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="BreakingPlank.cs" t="Include" />
           <e p="CharacterMovement" t="Include">
+            <e p="characterglide.cs" t="Include" />
             <e p="CharacterJump.cs" t="Include" />
             <e p="CharacterMovement.cs" t="Include" />
             <e p="CharacterRespawn.cs" t="Include" />
+            <e p="CharacterSlide.cs" t="Include" />
             <e p="EnemyCollision.cs" t="Include" />
             <e p="EnemyInteraction.cs" t="Include" />
             <e p="EnemyJump.cs" t="Include" />
             <e p="EnemyMoveBool.cs" t="Include" />
             <e p="EnemyMovement.cs" t="Include" />
+            <e p="EnemyRespawn.cs" t="Include" />
             <e p="ObstacleSlowDown.cs" t="Include" />
           </e>
+          <e p="Checkpoints.cs" t="Include" />
           <e p="ColorGradient.cs" t="Include" />
           <e p="Door.cs" t="Include" />
           <e p="Fallingobjects.cs" t="Include" />
