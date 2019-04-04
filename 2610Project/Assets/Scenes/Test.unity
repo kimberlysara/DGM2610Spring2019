@@ -221,13 +221,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1341659958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf7d8e410e0a18947bdeacb4f9468db9, type: 3}
+  m_Script: {fileID: 11500000, guid: 52e5a01c7fb243a4ba97042fa8c33087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaterialColor: {fileID: 2100000, guid: 7ea28392ebfee894191aea02ed630023, type: 2}
-  Color1: {r: 1, g: 0, b: 0, a: 0}
-  Color2: {r: 0.2502646, g: 0.09011213, b: 0.764151, a: 0}
-  time: 0.5
+  color1: {r: 0.47148275, g: 0.16313633, b: 0.735849, a: 0}
+  color2: {r: 0.6698113, g: 0.08530616, b: 0.08530616, a: 0}
+  ColorLerp: {r: 0, g: 0, b: 0, a: 0}
+  changeTime: 2
+  Cube: {fileID: 0}
 --- !u!65 &1341659960
 BoxCollider:
   m_ObjectHideFlags: 0

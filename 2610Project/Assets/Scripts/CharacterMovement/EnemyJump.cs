@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyJump : MonoBehaviour {
 
 	
-	public int jumpHeight = 2;
+	public int jumpHeight = 3;
 	public Rigidbody Rb;
 	public Vector3 jump;
 	

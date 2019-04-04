@@ -29,7 +29,7 @@ public class CharacterRespawn : MonoBehaviour
         Ismovingbool.EnemyisMoving = false;
         EnemyWaiting.characterSpeed = 0;
         yield return new WaitForSeconds(1.5f);
-        EnemyWaiting.characterSpeed = 10;
+        EnemyWaiting.characterSpeed = 11;
 
 
     }

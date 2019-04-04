@@ -6,7 +6,7 @@ public class CharacterSlide : MonoBehaviour
 {
 
 	public float slideSpeed;
-	public CharacterMovement characterMove;
+	//public CharacterMovement characterMove;
 	public GameObject Character;
 
 	public bool isCrouching;
@@ -29,7 +29,7 @@ public class CharacterSlide : MonoBehaviour
 		{
 			
 			Character.transform.localScale = new Vector3(1,.5f,1);
-			characterMove.characterSpeed = 9;
+			
 			isCrouching = true;
 			//when you stop pressing the key IEnumerator runs and slows you down for a sec and box collider goes back to normal. 
 			//speed back to normal
@@ -40,7 +40,7 @@ public class CharacterSlide : MonoBehaviour
 			print("up");
 			isCrouching = false;
 			Character.transform.localScale = new Vector3(1,1,1);
-			characterMove.characterSpeed = 8;
+			
 		}
 		
 	}
