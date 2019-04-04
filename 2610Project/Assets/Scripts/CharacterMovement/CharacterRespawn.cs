@@ -17,7 +17,10 @@ public class CharacterRespawn : MonoBehaviour
         spawn = transform.position;
         enemySpawn = Enemy.transform.position;
     }
-    
+   
+
+
+
     IEnumerator _enemyRespawnWait()
     {
         print("waiting");
@@ -33,6 +36,11 @@ public class CharacterRespawn : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
+        if (other.CompareTag("Checkpoint"))
+        {
+            spawn = transform.position;
+            enemySpawn = transform.position;
+        }
         if (other.CompareTag("FallThreshold")||other.CompareTag("Enemy"))
         {
             

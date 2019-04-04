@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Kimberly\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Kimberly\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_2610Project.-1172824660.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Kimberly\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kimberly\.Rider2018.3\system\resharper-host\Local\Transient\ReSharperHost\v183\SolutionCaches\_2610Project.-1172824660.00" t="ExcludeRecursive" />
     <e p="E:\Repos\DGM2610Spring2019\2610Project" t="IncludeRecursive">
       <e p="2610Project.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
@@ -151,6 +151,8 @@
           <e p="Checkpoints.cs" t="Include" />
           <e p="ColorGradient.cs" t="Include" />
           <e p="Door.cs" t="Include" />
+          <e p="Elevator.cs" t="Include" />
+          <e p="ElevatorDoor.cs" t="Include" />
           <e p="Fallingobjects.cs" t="Include" />
           <e p="Ladder.cs" t="Include" />
         </e>
