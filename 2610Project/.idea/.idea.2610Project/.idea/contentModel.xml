@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10808778\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_2610Project.1016826589.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10808778\Documents\Repos\DGM2610Spring2019\2610Project" t="IncludeRecursive">
+    <e p="C:\Users\Kimberly\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kimberly\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_2610Project.-1172824660.00" t="ExcludeRecursive" />
+    <e p="E:\Repos\DGM2610Spring2019\2610Project" t="IncludeRecursive">
       <e p="2610Project.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -18,6 +19,7 @@
             <e p="EnemyCollision.cs" t="Include" />
             <e p="EnemyInteraction.cs" t="Include" />
             <e p="EnemyJump.cs" t="Include" />
+            <e p="EnemyLocation.cs" t="Include" />
             <e p="EnemyMoveBool.cs" t="Include" />
             <e p="EnemyMovement.cs" t="Include" />
             <e p="EnemyRespawn.cs" t="Include" />
@@ -29,6 +31,7 @@
           <e p="ElevatorDoor.cs" t="Include" />
           <e p="Fallingobjects.cs" t="Include" />
           <e p="Ladder.cs" t="Include" />
+          <e p="LadderUp.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

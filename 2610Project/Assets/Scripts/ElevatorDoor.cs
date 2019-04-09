@@ -10,7 +10,7 @@ public class ElevatorDoor : MonoBehaviour
 	private void Update()
 	{
 		
-		if (elevator.transform.position.y >= -70)
+		if (elevator.transform.position.y >= 1)
 		{
 			print("Door");
 			Door.gameObject.SetActive(false);

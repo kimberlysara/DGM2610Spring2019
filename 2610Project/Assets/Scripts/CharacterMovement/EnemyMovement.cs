@@ -7,7 +7,7 @@ public class EnemyMovement : MonoBehaviour {
 	
 	public Rigidbody Rb;
 	public float characterSpeed;
-	public float currentspeed = 10;
+	public float currentspeed;
 	public Vector3 direction;
 	public float playerY;
 	public EnemyMoveBool IsMovingBool;

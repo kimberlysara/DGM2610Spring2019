@@ -42,7 +42,7 @@ public class Fallingobjects : MonoBehaviour
                     rb.isKinematic = true;
 
 
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(1);
 
             rb.isKinematic = false;
             Object.transform.position = Position;

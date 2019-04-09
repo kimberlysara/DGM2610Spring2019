@@ -27,21 +27,19 @@ public class EnemyInteraction : MonoBehaviour
 			if (PlayerLocation.x < EnemyLocation.x)
 
 			{
-			
-			
+
+
 				EnemyMove.characterSpeed = 0;
 			}
 			else
 			{
-				
-				EnemyMove.characterSpeed = 10;
+
+				EnemyMove.characterSpeed = 13;
+
 			}
-
-
 		}
+
+
 	}
 
-
-	
-	
 }

@@ -233,8 +233,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1833629474129084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.47, y: -69.02, z: 242.91}
-  m_LocalScale: {x: 0.7753738, y: 1, z: 1.8153315}
+  m_LocalPosition: {x: 93, y: -16, z: 301}
+  m_LocalScale: {x: 1.0613062, y: 3.4014442, z: 2.4847665}
   m_Children:
   - {fileID: 4890616589944656}
   - {fileID: 4666320831362652}
@@ -525,6 +525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.67058825, g: 0.3137255, b: 0.09019608, a: 0}
   color2: {r: 0.21176472, g: 0.20000002, b: 0.5372549, a: 0}
+  StartColor: {r: 0.67058825, g: 0.3137255, b: 0.09019608, a: 0}
   ColorLerp: {fileID: 2100000, guid: 3a9a12ddd8f642446a380877111f76f8, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -542,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.34117648, g: 0.14117648, b: 0.015686275, a: 0}
   color2: {r: 0.039215688, g: 0.06666667, b: 0.34901962, a: 0}
+  StartColor: {r: 0.3372549, g: 0.14117648, b: 0.019607844, a: 0}
   ColorLerp: {fileID: 2100000, guid: 3b4802088c471f449b9e471fc5aaa4d2, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -559,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.20784315, g: 0.0627451, b: 0.011764707, a: 0}
   color2: {r: 0.011764707, g: 0.058823533, b: 0.20784315, a: 0}
+  StartColor: {r: 0.20392159, g: 0.0627451, b: 0.015686275, a: 0}
   ColorLerp: {fileID: 2100000, guid: e9d44bd664d82574d9cc3bcb7c1faed7, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -576,6 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.8862746, g: 0.50980395, b: 0.20000002, a: 0}
   color2: {r: 0.2784314, g: 0.26666668, b: 0.6509804, a: 0}
+  StartColor: {r: 0.8862746, g: 0.50980395, b: 0.20000002, a: 0}
   ColorLerp: {fileID: 2100000, guid: 41338565d5f57784b82ba6c35e5b85e8, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -593,7 +597,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.6392157, g: 0.3019608, b: 0.08627451, a: 0}
   color2: {r: 0.19607845, g: 0.18431373, b: 0.50980395, a: 0}
-  ColorLerp: {fileID: 2100000, guid: a9b1fdd56060b7f40bbc4be5fd15c78e, type: 2}
+  StartColor: {r: 0.6392157, g: 0.3019608, b: 0.08627451, a: 0}
+  ColorLerp: {fileID: 2100000, guid: fd78f156906b00948a3f18236bfe8079, type: 2}
   changeTime: 0.3
   isTriggered: 0
   endTime: 20
@@ -610,6 +615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.25490198, g: 0.078431375, b: 0.015686275, a: 0}
   color2: {r: 0.015686275, g: 0.06666667, b: 0.227451, a: 0}
+  StartColor: {r: 0.2509804, g: 0.078431375, b: 0.019607844, a: 0}
   ColorLerp: {fileID: 2100000, guid: 77c86f0504c88794f95e4ecb6b05dc6a, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -627,6 +633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.76470596, g: 0.4039216, b: 0.11764707, a: 0}
   color2: {r: 0.24313727, g: 0.23137257, b: 0.5803922, a: 0}
+  StartColor: {r: 0.76470596, g: 0.4039216, b: 0.11764707, a: 0}
   ColorLerp: {fileID: 2100000, guid: 55698d19856918b40a0b19dc686f2e0e, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -644,6 +651,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.3019608, g: 0.11764707, b: 0, a: 0}
   color2: {r: 0.019607844, g: 0.043137256, b: 0.3019608, a: 0}
+  StartColor: {r: 0.29803923, g: 0.11764707, b: 0.003921569, a: 0}
   ColorLerp: {fileID: 2100000, guid: 12d81e37b3c1cad4a9fa76f61495f5fd, type: 2}
   changeTime: 0.3
   isTriggered: 0
@@ -661,7 +669,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.41960788, g: 0.16862746, b: 0.06666667, a: 0}
   color2: {r: 0.10980393, g: 0.15294118, b: 0.43529415, a: 0}
-  ColorLerp: {fileID: 2100000, guid: 7d687f3383e939d48b66698e55e3b3d4, type: 2}
+  StartColor: {r: 0.41960788, g: 0.16862746, b: 0.06666667, a: 0}
+  ColorLerp: {fileID: 2100000, guid: cbc6b6d24dfc07046843b1e8b8ddf72a, type: 2}
   changeTime: 0.3
   isTriggered: 0
   endTime: 20
@@ -678,7 +687,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.7372549, g: 0.37647063, b: 0.09411766, a: 0}
   color2: {r: 0.23529413, g: 0.227451, b: 0.5372549, a: 0}
-  ColorLerp: {fileID: 2100000, guid: b4f5b8bbfcb7214408c5e487eabe190a, type: 2}
+  StartColor: {r: 0.7372549, g: 0.37647063, b: 0.09411766, a: 0}
+  ColorLerp: {fileID: 2100000, guid: a9b1fdd56060b7f40bbc4be5fd15c78e, type: 2}
   changeTime: 0.3
   isTriggered: 0
   endTime: 20
@@ -695,7 +705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color1: {r: 0.38823533, g: 0.15686275, b: 0.0627451, a: 0}
   color2: {r: 0.0627451, g: 0.10588236, b: 0.38823533, a: 0}
-  ColorLerp: {fileID: 2100000, guid: fd78f156906b00948a3f18236bfe8079, type: 2}
+  StartColor: {r: 0.38431376, g: 0.15686275, b: 0.06666667, a: 0}
+  ColorLerp: {fileID: 2100000, guid: 238411a4b9ebd01439772e3db9dea90b, type: 2}
   changeTime: 0.3
   isTriggered: 0
   endTime: 20
