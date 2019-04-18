@@ -7,7 +7,8 @@ public class CharacterSlide : MonoBehaviour
 
 	public float slideSpeed;
 	//public CharacterMovement characterMove;
-	public GameObject Character;
+	//public GameObject Character;
+	public BoxCollider Character;
 
 	public bool isCrouching;
 	//public BoxCollider Collider;
@@ -28,7 +29,7 @@ public class CharacterSlide : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.S))
 		{
 			
-			Character.transform.localScale = new Vector3(1,.5f,1);
+			Character.transform.localScale = new Vector3(.2751373f,.127f,.2751373f);
 			
 			isCrouching = true;
 			//when you stop pressing the key IEnumerator runs and slows you down for a sec and box collider goes back to normal. 
@@ -39,7 +40,7 @@ public class CharacterSlide : MonoBehaviour
 		{
 			print("up");
 			isCrouching = false;
-			Character.transform.localScale = new Vector3(1,1,1);
+			Character.transform.localScale = new Vector3(.2751373f,.2751373f,.2751373f);
 			
 		}
 		

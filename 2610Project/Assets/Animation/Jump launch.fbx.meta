@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 9d4a680a783092e41833a9a22bea9170
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back
+    100002: BAG
+    100004: character:back
+    100006: character:bottom
+    100008: character:Head
+    100010: character:Hip_jnt
+    100012: character:Hips_cntrl
+    100014: character:Hips_cntrl_grp
+    100016: character:ikHandle1_Right_leg
+    100018: character:ikHandle2
+    100020: character:L_Arm_Elbow_fk_cntrl
+    100022: character:L_Arm_Elbow_fk_cntrl_grp1
+    100024: character:L_Arm_Shoulder_fk_cntrl
+    100026: character:L_Arm_Shoulder_fk_cntrl_grp
+    100028: character:L_foot_FK_cntrl
+    100030: character:L_foot_FK_cntrl_grp
+    100032: character:L_foot_jnt
+    100034: character:L_foot_jnt_piece_2
+    100036: character:L_hip_jnt
+    100038: character:L_knee_jnt
+    100040: character:L_leg_Ik_Ankle_cntrl1
+    100042: character:L_leg_Ik_Ankle_cntrl1_grp
+    100044: character:L_leg_ik_cntrl_grp
+    100046: character:L_leg_Ik_Hip_cntrl1
+    100048: character:L_leg_Ik_Hip_cntrl1_grp1
+    100050: character:L_leg_Ik_offset_grp
+    100052: character:L_leg_Ik_pv_cntrl
+    100054: character:L_leg_Ik_pv_cntrl_grp
+    100056: character:L_shoulder_jnt1
+    100058: character:Left_Hand1
+    100060: character:Left_leg
+    100062: character:Neck
+    100064: character:Neck__jnt1
+    100066: character:Neck_cntrl_grp
+    100068: character:Neck_cntrl_grp 1
+    100070: character:R_Arm_Elbow_fk_cntrl
+    100072: character:R_Arm_Elbow_fk_cntrl_grp1
+    100074: character:R_Arm_Shoulder_fk_cntrl
+    100076: character:R_Arm_Shoulder_fk_cntrl_grp1
+    100078: character:R_elbow_jnt
+    100080: character:R_elbow_jnt 1
+    100082: character:R_foot_FK_cntrl
+    100084: character:R_foot_FK_cntrl_grp1
+    100086: character:R_foot_jnt
+    100088: character:R_foot_jnt_piece_2
+    100090: character:R_hip_jnt
+    100092: character:R_knee_jnt
+    100094: character:R_leg_Ik_Ankle_cntrl1
+    100096: character:R_leg_Ik_Ankle_cntrl1_grp
+    100098: character:R_leg_ik_cntrl_grp1
+    100100: character:R_leg_Ik_Hip_cntrl1
+    100102: character:R_leg_Ik_Hip_cntrl1_grp1
+    100104: character:R_leg_Ik_offset_grp
+    100106: character:R_leg_Ik_PV_cntrl1
+    100108: character:R_leg_Ik_PV_cntrl1_grp1
+    100110: character:R_shoulder_jnt
+    100112: character:Right_Arm
+    100114: character:Right_Foot1
+    100116: character:Stomach_cntrl
+    100118: character:Stomach_Cntrl_grp
+    100120: character:Stomach_jnt
+    100122: character:Torso
+    100124: character:Torso_Cntrl
+    100126: character:Torso_Cntrl_grp
+    100128: character:Torso_jnt
+    100130: imagePlane1
+    100132: //RootNode
+    400000: back
+    400002: BAG
+    400004: character:back
+    400006: character:bottom
+    400008: character:Head
+    400010: character:Hip_jnt
+    400012: character:Hips_cntrl
+    400014: character:Hips_cntrl_grp
+    400016: character:ikHandle1_Right_leg
+    400018: character:ikHandle2
+    400020: character:L_Arm_Elbow_fk_cntrl
+    400022: character:L_Arm_Elbow_fk_cntrl_grp1
+    400024: character:L_Arm_Shoulder_fk_cntrl
+    400026: character:L_Arm_Shoulder_fk_cntrl_grp
+    400028: character:L_foot_FK_cntrl
+    400030: character:L_foot_FK_cntrl_grp
+    400032: character:L_foot_jnt
+    400034: character:L_foot_jnt_piece_2
+    400036: character:L_hip_jnt
+    400038: character:L_knee_jnt
+    400040: character:L_leg_Ik_Ankle_cntrl1
+    400042: character:L_leg_Ik_Ankle_cntrl1_grp
+    400044: character:L_leg_ik_cntrl_grp
+    400046: character:L_leg_Ik_Hip_cntrl1
+    400048: character:L_leg_Ik_Hip_cntrl1_grp1
+    400050: character:L_leg_Ik_offset_grp
+    400052: character:L_leg_Ik_pv_cntrl
+    400054: character:L_leg_Ik_pv_cntrl_grp
+    400056: character:L_shoulder_jnt1
+    400058: character:Left_Hand1
+    400060: character:Left_leg
+    400062: character:Neck
+    400064: character:Neck__jnt1
+    400066: character:Neck_cntrl_grp
+    400068: character:Neck_cntrl_grp 1
+    400070: character:R_Arm_Elbow_fk_cntrl
+    400072: character:R_Arm_Elbow_fk_cntrl_grp1
+    400074: character:R_Arm_Shoulder_fk_cntrl
+    400076: character:R_Arm_Shoulder_fk_cntrl_grp1
+    400078: character:R_elbow_jnt
+    400080: character:R_elbow_jnt 1
+    400082: character:R_foot_FK_cntrl
+    400084: character:R_foot_FK_cntrl_grp1
+    400086: character:R_foot_jnt
+    400088: character:R_foot_jnt_piece_2
+    400090: character:R_hip_jnt
+    400092: character:R_knee_jnt
+    400094: character:R_leg_Ik_Ankle_cntrl1
+    400096: character:R_leg_Ik_Ankle_cntrl1_grp
+    400098: character:R_leg_ik_cntrl_grp1
+    400100: character:R_leg_Ik_Hip_cntrl1
+    400102: character:R_leg_Ik_Hip_cntrl1_grp1
+    400104: character:R_leg_Ik_offset_grp
+    400106: character:R_leg_Ik_PV_cntrl1
+    400108: character:R_leg_Ik_PV_cntrl1_grp1
+    400110: character:R_shoulder_jnt
+    400112: character:Right_Arm
+    400114: character:Right_Foot1
+    400116: character:Stomach_cntrl
+    400118: character:Stomach_Cntrl_grp
+    400120: character:Stomach_jnt
+    400122: character:Torso
+    400124: character:Torso_Cntrl
+    400126: character:Torso_Cntrl_grp
+    400128: character:Torso_jnt
+    400130: imagePlane1
+    400132: //RootNode
+    2000000: back
+    2000002: character:back
+    2000004: character:bottom
+    2100000: lambert1
+    2300000: BAG
+    3300000: BAG
+    4300000: character:Torso
+    4300002: character:Left_leg
+    4300004: character:Right_Arm
+    4300006: character:Right_Foot1
+    4300008: character:Left_Hand1
+    4300010: character:Neck
+    4300012: character:Head
+    4300014: BAG
+    7400000: Jump launch
+    9500000: //RootNode
+    13700000: character:Head
+    13700002: character:Left_Hand1
+    13700004: character:Left_leg
+    13700006: character:Neck
+    13700008: character:Right_Arm
+    13700010: character:Right_Foot1
+    13700012: character:Torso
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
