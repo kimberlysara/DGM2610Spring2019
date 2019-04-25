@@ -6,6 +6,8 @@ public class CharacterSlide : MonoBehaviour
 {
 
 	public float slideSpeed;
+
+	public HasGlider Glider;
 	//public CharacterMovement characterMove;
 	//public GameObject Character;
 	public BoxCollider Character;
@@ -26,7 +28,7 @@ public class CharacterSlide : MonoBehaviour
 
 	public void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.S))
+		if (Input.GetKeyDown(KeyCode.S) && Glider.PlayerHasGlider == false)
 		{
 			
 			Character.transform.localScale = new Vector3(.2751373f,.127f,.2751373f);

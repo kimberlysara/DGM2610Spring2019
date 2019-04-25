@@ -9,6 +9,7 @@ TagManager:
   - Hazard
   - Enemy
   - Checkpoint
+  - Glider
   layers:
   - Default
   - TransparentFX
