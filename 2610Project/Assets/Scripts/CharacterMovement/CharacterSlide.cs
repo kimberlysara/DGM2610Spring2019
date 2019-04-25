@@ -6,11 +6,13 @@ public class CharacterSlide : MonoBehaviour
 {
 
 	public float slideSpeed;
+	private Animator CharacterAnimation;
+	
 
 	public HasGlider Glider;
 	//public CharacterMovement characterMove;
 	//public GameObject Character;
-	public BoxCollider Character;
+	public GameObject Character;
 
 	public bool isCrouching;
 	//public BoxCollider Collider;
@@ -21,6 +23,7 @@ public class CharacterSlide : MonoBehaviour
 
 	private void Start()
 	{
+		CharacterAnimation = GetComponent<Animator>();
 		isCrouching = false;
 		crouchScale = Character.transform.localScale;
 		//scaleY = Character.transform.localScale;
@@ -31,7 +34,8 @@ public class CharacterSlide : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.S) && Glider.PlayerHasGlider == false)
 		{
 			
-			Character.transform.localScale = new Vector3(.2751373f,.127f,.2751373f);
+			Character.transform.localScale = new Vector3(1,.5f,1);
+			CharacterAnimation.SetTrigger(("Slide"));
 			
 			isCrouching = true;
 			//when you stop pressing the key IEnumerator runs and slows you down for a sec and box collider goes back to normal. 
@@ -40,9 +44,10 @@ public class CharacterSlide : MonoBehaviour
 		}
 		if (Input.GetKeyUp(KeyCode.S))
 		{
+			CharacterAnimation.SetTrigger("Down");
 			print("up");
 			isCrouching = false;
-			Character.transform.localScale = new Vector3(.2751373f,.2751373f,.2751373f);
+			Character.transform.localScale = new Vector3(1,1,1);
 			
 		}
 		
