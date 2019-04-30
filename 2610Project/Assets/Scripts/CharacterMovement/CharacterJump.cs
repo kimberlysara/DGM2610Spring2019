@@ -40,7 +40,7 @@ public class CharacterJump : MonoBehaviour
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
 		{
-			//CharacterAnimation.ResetTrigger("Jump");
+			CharacterAnimation.ResetTrigger("Jump Land");
 			CharacterAnimation.SetTrigger("Jump");
 			isGrounded = false;
 			jump = Rb.velocity;
@@ -55,7 +55,7 @@ public class CharacterJump : MonoBehaviour
 				
 			}
 
-			if (Rb.velocity.y < .001f)
+			if (Rb.velocity.y < 0)
 			{
 				print("drop");
 				CharacterAnimation.SetTrigger(("Jump Drop"));
