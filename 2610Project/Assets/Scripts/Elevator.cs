@@ -12,7 +12,7 @@ public class Elevator : MonoBehaviour
 
 	private void OnTriggerStay(Collider other)
 	{
-		if (other.CompareTag("Player") && elevator.transform.position.y < 1)
+		if (other.CompareTag("Elevator") && elevator.transform.position.y < 1)
 		{
 			print("elevator");
 			

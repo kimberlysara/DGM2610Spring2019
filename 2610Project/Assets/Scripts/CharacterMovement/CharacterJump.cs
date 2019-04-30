@@ -17,6 +17,7 @@ public class CharacterJump : MonoBehaviour
 	{
 		CharacterAnimation = GetComponent<Animator>();
 		jump = new Vector3(0,jumpHeight,0);
+		print(Rb.velocity.y);
 	}
 
 	private void OnCollisionStay(Collision collision)
@@ -39,23 +40,22 @@ public class CharacterJump : MonoBehaviour
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
 		{
-			//Rb.AddForce(jump *  jumpHeight, ForceMode.Impulse);
+			//CharacterAnimation.ResetTrigger("Jump");
 			CharacterAnimation.SetTrigger("Jump");
 			isGrounded = false;
 			jump = Rb.velocity;
-			//movement.y = JumpFloat.value;
 			jump.y = jumpHeight;
 			Rb.AddForce(jump, ForceMode.Impulse);
 			
 			print(Rb.velocity.y);
-			if (Rb.velocity.y < 1 && Rb.velocity.y > -1 )
+			if (Rb.velocity.y < 5 && Rb.velocity.y > 0)
 			{
 				print("Hang");
 				CharacterAnimation.SetTrigger(("Jump Hang"));
 				
 			}
 
-			if (Rb.velocity.y < 0)
+			if (Rb.velocity.y < .001f)
 			{
 				print("drop");
 				CharacterAnimation.SetTrigger(("Jump Drop"));

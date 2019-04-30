@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Checkpoint
   - Glider
+  - Elevator
   layers:
   - Default
   - TransparentFX
