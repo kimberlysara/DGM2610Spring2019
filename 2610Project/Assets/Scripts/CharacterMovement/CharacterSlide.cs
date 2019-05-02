@@ -31,7 +31,7 @@ public class CharacterSlide : MonoBehaviour
 
 	public void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.S) && Glider.PlayerHasGlider == false)
+		if (Input.GetKeyDown(KeyCode.S))
 		{
 			
 			Character.transform.localScale = new Vector3(1,.5f,1);

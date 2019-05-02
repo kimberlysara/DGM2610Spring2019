@@ -11,6 +11,7 @@ public class EnemyInteraction : MonoBehaviour
 	public GameObject Enemy;
 	private EnemyMovement EnemyMove;
 	public EnemyMoveBool IsMovingBool;
+	public float EnemySpeed;
 	
 
 	private void Start()
@@ -34,7 +35,7 @@ public class EnemyInteraction : MonoBehaviour
 			else
 			{
 
-				EnemyMove.characterSpeed = 13;
+				EnemyMove.characterSpeed = EnemySpeed;
 
 			}
 		}

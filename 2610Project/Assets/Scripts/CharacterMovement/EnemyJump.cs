@@ -38,6 +38,8 @@ private void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag("Jump"))
 		{
+			CharacterAnimation.ResetTrigger("Jump");
+			CharacterAnimation.ResetTrigger("Jump Hang");
 			print(Rb.velocity.y);
 			//CharacterAnimation.ResetTrigger("Jump");
 			CharacterAnimation.SetTrigger("Jump");

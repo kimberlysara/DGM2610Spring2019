@@ -40,14 +40,14 @@ public class CharacterJump : MonoBehaviour
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
 		{
-			CharacterAnimation.ResetTrigger("Jump Land");
-			CharacterAnimation.SetTrigger("Jump");
+			//CharacterAnimation.ResetTrigger("Jump Land");
+			//CharacterAnimation.SetTrigger("Jump");
 			isGrounded = false;
 			jump = Rb.velocity;
 			jump.y = jumpHeight;
 			Rb.AddForce(jump, ForceMode.Impulse);
 			
-			print(Rb.velocity.y);
+			/*print(Rb.velocity.y);
 			if (Rb.velocity.y < 5 && Rb.velocity.y > 0)
 			{
 				print("Hang");
@@ -59,10 +59,31 @@ public class CharacterJump : MonoBehaviour
 			{
 				print("drop");
 				CharacterAnimation.SetTrigger(("Jump Drop"));
+			}*/
+			
+			
+			
+		}
+
+		if (Input.GetKeyDown(KeyCode.Space))
+		{
+			CharacterAnimation.ResetTrigger("Jump Land");
+			CharacterAnimation.ResetTrigger("Jump");
+			CharacterAnimation.SetTrigger("Jump");
+			
+			print(Rb.velocity.y);
+			if (Rb.velocity.y < 10 && Rb.velocity.y > 0)
+			{
+				print("Hang");
+				CharacterAnimation.SetTrigger(("Jump Hang"));
+				
 			}
-			
-			
-			
+
+			if (Rb.velocity.y < 0)
+			{
+				print("drop");
+				CharacterAnimation.SetTrigger(("Jump Drop"));
+			}
 		}
 		
 	

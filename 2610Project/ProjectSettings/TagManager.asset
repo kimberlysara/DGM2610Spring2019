@@ -11,6 +11,8 @@ TagManager:
   - Checkpoint
   - Glider
   - Elevator
+  - Zipline
+  - Zip end
   layers:
   - Default
   - TransparentFX
